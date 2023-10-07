@@ -58,7 +58,7 @@ const game = () => {
 					count
 				);
 				log(
-					`${new Date().toLocaleDateString()}: Felicidades, has adivinado el número en %d intento(s)`
+					`${new Date().toLocaleDateString()}: Felicidades, has adivinado el número en ${count} intento(s)`
 				).finally(() => rl.close());
 				return;
 			}
