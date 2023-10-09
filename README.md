@@ -39,7 +39,7 @@ const logger = require('./logger')const logger = require('./module');
 logger.info('info function');
 logger.log('log function');
 
-                                      MODULOS ECMAScript
+                                        MODULOS ECMAScript
 
 Apartir de la version 14.x node.js soporta la integracion de modulos segun el estandar de ECMAScript. Para ello, podemos seguir dos caminos. El primero es darle a los archivos la extensión .mjs para que podamos usar módulos ECMAScript, o establecer el campo "type", en el archivo package.json, con el valor "module".
 
