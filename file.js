@@ -14,5 +14,3 @@ fs.readdir(__dirname) // leemos todos los archivos del directorio actual
 		);
 	})
 	.then((result) => console.table(result));
-
-// para ejecutar file.js aquitar "type":"module" en el .json
