@@ -4,7 +4,7 @@ COMMANDER:
 
 Commander.js es una biblioteca que facilita la creación de interfaces de línea de comandos (CLI) en Node.js.
 
-Commander.js es ampliamente utilizada para:
+Es ampliamente utilizada para:
 
 Crear comandos y opciones: Puedes definir comandos y opciones de línea de comandos con facilidad utilizando Commander.js. Esto te permite diseñar aplicaciones de línea de comandos interactivas y flexibles.
 
@@ -20,13 +20,10 @@ Para usar Commander.js, primero debes instalarlo en tu proyecto a través de npm
 
 Usando npm:
 
-bash
-Copy code
 npm install commander
+
 Usando yarn:
 
-bash
-Copy code
 yarn add commander
 Luego, en tu código Node.js, puedes importar y utilizar Commander.js para definir y analizar comandos de línea de comandos. Aquí hay un ejemplo muy básico de cómo usarlo:
 
